@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="markmap mm-046rdi-7" style="width: 100%; height: 100%;"><style>.markmap{--markmap-max-width: 9999px;--markmap-a-color: #0097e6;--markmap-a-hover-color: #00a8ff;--markmap-code-bg: #f0f0f0;--markmap-code-color: #555;--markmap-highlight-bg: #ffeaa7;--markmap-table-border: 1px solid currentColor;--markmap-font: 300 16px/20px sans-serif;--markmap-circle-open-bg: #fff;--markmap-text-color: #333;--markmap-highlight-node-bg: #ff02;font:var(--markmap-font);color:var(--markmap-text-color)}.markmap-link{fill:none}.markmap-node&gt;circle{cursor:pointer}.markmap-foreign{display:inline-block}.markmap-foreign p{margin:0}.markmap-foreign a{color:var(--markmap-a-color)}.markmap-foreign a:hover{color:var(--markmap-a-hover-color)}.markmap-foreign code{padding:.25em;font-size:calc(1em - 2px);color:var(--markmap-code-color);background-color:var(--markmap-code-bg);border-radius:2px}.markmap-foreign pre{margin:0}.markmap-foreign pre&gt;code{display:block}.markmap-foreign del{text-decoration:line-through}.markmap-foreign em{font-style:italic}.markmap-foreign strong{font-weight:700}.markmap-foreign mark{background:var(--markmap-highlight-bg)}.markmap-foreign table,.markmap-foreign th,.markmap-foreign td{border-collapse:collapse;border:var(--markmap-table-border)}.markmap-foreign img{display:inline-block}.markmap-foreign svg{fill:currentColor}.markmap-foreign&gt;div{width:var(--markmap-max-width);text-align:left}.markmap-foreign&gt;div&gt;div{display:inline-block}.markmap-highlight rect{fill:var(--markmap-highlight-node-bg)}.markmap-dark .markmap{--markmap-code-bg: #1a1b26;--markmap-code-color: #ddd;--markmap-circle-open-bg: #444;--markmap-text-color: #eee}</style><g transform="translate(20,289.140061791967) scale(0.7826982492276005)"><path class="markmap-link" data-depth="4" data-path="1.3.4.5" d="M620,-41.531C660,-41.531,660,8.875,700,8.875" stroke-width="1.1875" stroke="rgb(214, 39, 40)"/><path class="markmap-link" data-depth="4" data-path="1.3.6.7" d="M634,94.656C674,94.656,674,145.063,714,145.063" stroke-width="1.1875" stroke="rgb(140, 86, 75)"/><path class="markmap-link" data-depth="3" data-path="1.3.4" d="M432,25.25C472,25.25,472,-41.531,512,-41.531" stroke-width="1.375" stroke="rgb(44, 160, 44)"/><path class="markmap-link" data-depth="3" data-path="1.3.6" d="M432,25.25C472,25.25,472,94.656,512,94.656" stroke-width="1.375" stroke="rgb(148, 103, 189)"/><path class="markmap-link" data-depth="2" data-path="1.2" d="M256,11.75C296,11.75,296,-2.5,336,-2.5" stroke-width="1.75" stroke="rgb(255, 127, 14)"/><path class="markmap-link" data-depth="2" data-path="1.3" d="M256,11.75C296,11.75,296,25.25,336,25.25" stroke-width="1.75" stroke="rgb(44, 160, 44)"/><g class="markmap-highlight"/><g data-depth="2" data-path="1.2" class="markmap-node" transform="translate(336, -24.375)"><line stroke="#ff7f0e" stroke-width="1.75" x1="-1" x2="98" y1="21.875" y2="21.875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="80" height="21"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">数据库设计</div></div></foreignObject></g><g data-depth="4" data-path="1.3.4.5" class="markmap-node" transform="translate(700, -116.71875)"><line stroke="#d62728" stroke-width="1.1875" x1="-1" x2="259" y1="125.59375" y2="125.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="241" height="125"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><table data-lines="9,16">
+<thead data-lines="9,10">
+<tr data-lines="9,10">
+<th>字段名</th>
+<th>数据类型</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody data-lines="11,16">
+<tr data-lines="11,12">
+<td>id</td>
+<td>INT</td>
+<td>主键，自增</td>
+</tr>
+<tr data-lines="12,13">
+<td>item_name</td>
+<td>VARCHAR</td>
+<td>物品名称</td>
+</tr>
+<tr data-lines="13,14">
+<td>description</td>
+<td>TEXT</td>
+<td>物品描述</td>
+</tr>
+<tr data-lines="14,15">
+<td>location</td>
+<td>VARCHAR</td>
+<td>丢失地点</td>
+</tr>
+<tr data-lines="15,16">
+<td>contact_info</td>
+<td>VARCHAR</td>
+<td>联系方式</td>
+</tr>
+</tbody>
+</table></div></div></foreignObject></g><g data-depth="3" data-path="1.3.4" class="markmap-node" transform="translate(512, -66.21875)"><line stroke="#2ca02c" stroke-width="1.375" x1="-1" x2="110" y1="24.6875" y2="24.6875"/><circle stroke-width="1.5" r="6" stroke="#2ca02c" fill="var(--markmap-circle-open-bg)" cx="108" cy="24.6875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="92" height="24"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><code>lost_items</code> 表</div></div></foreignObject></g><g data-depth="4" data-path="1.3.6.7" class="markmap-node" transform="translate(714, 19.46875)"><line stroke="#8c564b" stroke-width="1.1875" x1="-1" x2="259" y1="125.59375" y2="125.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="241" height="125"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><table data-lines="18,25">
+<thead data-lines="18,19">
+<tr data-lines="18,19">
+<th>字段名</th>
+<th>数据类型</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody data-lines="20,25">
+<tr data-lines="20,21">
+<td>id</td>
+<td>INT</td>
+<td>主键，自增</td>
+</tr>
+<tr data-lines="21,22">
+<td>item_name</td>
+<td>VARCHAR</td>
+<td>物品名称</td>
+</tr>
+<tr data-lines="22,23">
+<td>description</td>
+<td>TEXT</td>
+<td>物品描述</td>
+</tr>
+<tr data-lines="23,24">
+<td>location</td>
+<td>VARCHAR</td>
+<td>发现地点</td>
+</tr>
+<tr data-lines="24,25">
+<td>contact_info</td>
+<td>VARCHAR</td>
+<td>联系方式</td>
+</tr>
+</tbody>
+</table></div></div></foreignObject></g><g data-depth="3" data-path="1.3.6" class="markmap-node" transform="translate(512, 69.96875)"><line stroke="#9467bd" stroke-width="1.375" x1="-1" x2="124" y1="24.6875" y2="24.6875"/><circle stroke-width="1.5" r="6" stroke="#9467bd" fill="var(--markmap-circle-open-bg)" cx="122" cy="24.6875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="106" height="24"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><code>found_items</code> 表</div></div></foreignObject></g><g data-depth="2" data-path="1.3" class="markmap-node" transform="translate(336, 3.375)"><line stroke="#2ca02c" stroke-width="1.75" x1="-1" x2="98" y1="21.875" y2="21.875"/><circle stroke-width="1.5" r="6" stroke="#2ca02c" fill="var(--markmap-circle-open-bg)" cx="96" cy="21.875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="80" height="21"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">数据表设计</div></div></foreignObject></g><g data-depth="1" data-path="1" class="markmap-node" transform="translate(0, -10.5)"><line stroke="#1f77b4" stroke-width="2.5" x1="-1" x2="258" y1="22.25" y2="22.25"/><circle stroke-width="1.5" r="6" stroke="#1f77b4" fill="var(--markmap-circle-open-bg)" cx="256" cy="22.25"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="240" height="21"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">校园失物招领平台数据库设计文档</div></div></foreignObject></g></g></svg>
